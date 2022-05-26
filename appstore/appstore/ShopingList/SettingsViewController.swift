@@ -143,32 +143,3 @@ class SettingsViewController: UIViewController, UITextFieldDelegate, UIPickerVie
 
 
 }
-func loadGroceryItems() {
-    
-    firebase.child(kGROCERYITEM).observe(.value, with: {
-        snapshot in
-        
-        self.groceryItems.removeAll()
-        
-        if snapshot.exists() {
-            
-            let allItems = (snapshot.value as! NSDictionary).allValues as NSArray
-            
-            
-            for item in allItems {
-                
-                let currentItem = GroceryItem.init(dictionary: item as! NSDictionary)
-                
-                self.groceryItems.append(currentItem)
-                
-            }
-            
-        } else{
-            
-            print("no snapshot")
-        }
-        
-        self.tableView.reloadData()
-    })
-    
-}
