@@ -39,7 +39,7 @@ public let kCURRENTUSER = "currentUser"
 public let kUSER = "User"
 public let kFULLNAME = "fullName"
 public let kTOTALITEMS = "totalItems"
-public let KADMIN = "hMEVFtJV0gVKfFeZTmTsYvDbNDu2"
+public let KADMIN = "jCAeaVpCvthJJnUgH2FvqeQyblZ2"
 public let KLIST = "List"
 
 
