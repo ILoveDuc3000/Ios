@@ -290,7 +290,7 @@
             </objects>
             <point key="canvasLocation" x="231" y="837"/>
         </scene>
-        <!--Shopping Items-->
+        <!--Shopping cart-->
         <scene sceneID="sZJ-kf-dTF">
             <objects>
                 <viewController storyboardIdentifier="itemVC" automaticallyAdjustsScrollViewInsets="NO" id="oIx-8W-sVO" customClass="ShoppingItemViewController" customModule="ShopingList" customModuleProvider="target" sceneMemberID="viewController">
@@ -448,7 +448,7 @@
                             <constraint firstItem="Y0f-b7-tVt" firstAttribute="top" secondItem="xFI-s9-l2b" secondAttribute="bottom" id="a6M-Xu-8Lr"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Shopping Items" id="lvo-Zw-5Bd">
+                    <navigationItem key="navigationItem" title="Shopping cart" id="lvo-Zw-5Bd">
                         <barButtonItem key="rightBarButtonItem" image="Plus" style="plain" id="LgA-za-vH5">
                             <connections>
                                 <action selector="addBarButtonItemPressed:" destination="oIx-8W-sVO" id="g8Z-64-eQC"/>
@@ -774,7 +774,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Quantity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ati-Df-45g">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Amount" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ati-Df-45g">
                                 <rect key="frame" x="16" y="282" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -903,7 +903,7 @@
             </objects>
             <point key="canvasLocation" x="1936.8" y="834.33283358320841"/>
         </scene>
-        <!--All Lists-->
+        <!--My Cart-->
         <scene sceneID="2hc-Jy-cKg">
             <objects>
                 <viewController id="QGC-b6-VAP" customClass="AllListsViewController" customModule="ShopingList" customModuleProvider="target" sceneMemberID="viewController">
@@ -998,7 +998,7 @@
                             <constraint firstItem="q5n-KV-ilM" firstAttribute="top" secondItem="emK-A5-zD7" secondAttribute="bottom" id="xYg-bx-5K1"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="All Lists" id="Q8e-dd-CVS">
+                    <navigationItem key="navigationItem" title="My Cart" id="Q8e-dd-CVS">
                         <barButtonItem key="rightBarButtonItem" image="Plus" style="plain" id="M9V-j2-ZKX">
                             <connections>
                                 <action selector="addBarButtonItemPressed:" destination="QGC-b6-VAP" id="Yte-UJ-bS7"/>
